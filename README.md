@@ -10,33 +10,33 @@ __Miembros del equipo y asignación de QA’s:__
 
 ### 1. Análisis de tecnologías:
 
-__Data Streaming: __
+__Data Streaming:__
 Es la transmision de datos a una alta y constante velocidad, la cual debe ser sufuciente 
 para soportar las aplicaciones como la television de alta definición
 
-__Apache Spark: __
+__Apache Spark:__
 Apache Spark es un framework open source para el procesamiento de datos masivos diseñado
 con tres prioridades en mente: velocidad, facilidad de uso, y capacidades avanzadas de analítica.
 
-__Tweepy: __
+__Tweepy:__
 Es una herramienta útil para conocer, analizar y administrar los seguidores y seguidos
 de una cuenta de Twitter.
 este es quien nos permite a través de una keys acceder a los tweets que luegos serán
 usados para el análisis de sentimientos
 
-__Apache kafka: __
+__Apache kafka:__
 Apache Kafka es un proyecto de intermediación de mensajes,tiene como objetivo proporcionar
 una plataforma unificada, de alto rendimiento y de baja latencia para la manipulación en
 tiempo real de fuentes de datos.
 
 
 ### 1. Descrición del problema:
-__Problema: __
+__Problema:__
 se desea analisar cual es la reaccion del publico a ciertos hastags con el fin de analisar
 cual es la respuesta del mercado a ciertos porductos y marcar expuestas a través de la 
 red social Twitter
 
-__Planeación de la solución del problema: __
+__Planeación de la solución del problema:__
 A través de este proyecto se desea extraer y analisar información de la data de las redes
 sociales en tiempo real, utlizando una de las soluciones de big data vistas en el curso 
 de Top. en telemática: Apache Spark y python
@@ -45,7 +45,7 @@ y luego procesaremos los datos usando Spark Streamig para identificar los hashta
 aplicarles un analisis de sentimientos
 
 ### 2. Desarrollo del proyecto:
-__Como correr el proyecto: __
+__Como correr el proyecto:__
 para poder correr este proyecto se deben instalar primero ciertas herramientas como lo son:
 Kafka (requiere Zookeeper), python3 (3.5.2 en este caso) y las siguientes librerias para
 python desde pip o conda
@@ -73,3 +73,9 @@ y luego se corre el archivo spark streming.py de la siguiente manera
 
 
 __Fuentes y Cybergrafia__
+
+https://github.com/sridharswamy/Twitter-Sentiment-Analysis-Using-Spark-Streaming-And-Kafka
+https://www.toptal.com/apache/tutorial-apache-spark-streaming-identificando-los-hashtags-de-tendencia-de-twitter/es
+https://www.youtube.com/watch?v=nAR8MFmeLNQ
+http://repositorio.uchile.cl/bitstream/handle/2250/130479/cf-montesinos_lg.pdf
+https://github.com/joanvr/spark-streaming-kafka-010-demo
