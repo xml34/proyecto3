@@ -1,7 +1,6 @@
 # PROYECTO 3 - BigData <h1>
 # Análisis de sentimientos <h2>
 
-### Atributos de calidad seleccionados:
 Este Proyecto consta de realizar una prueba de concepto (analisis de sentimientos)
 sobre Data Streaming desde Twitter utilizando Kafka.
 
